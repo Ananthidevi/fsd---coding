@@ -1,0 +1,100 @@
+
+body{
+    font-family:"outfit";
+    background-color: "pink";
+    color: "white";
+}
+h1{
+    font-family: "italic";
+    color: rgb(0, 0, 0);
+}
+header img{
+    width: 60px;
+    margin-top: 5mm;    
+}
+aside li{
+    color:rgb(114, 25, 59);
+    font-size: x-large;
+    font-family: italic;
+    list-style: none;
+}
+
+nav u1 li {
+    list-style: none;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: x-large ;
+
+}
+nav u1 li a{
+    color: rgb(0, 255, 21);
+    cursor: pointer;
+
+}
+*{
+    text-decoration:none;
+    color: rgb(7, 6, 7);
+}
+section u1 li{
+    margin-top: 5px;
+    color: black;
+    cursor: crosshair;
+    background-color: rgb(160, 164, 170);
+}
+section form{
+    font-family: inherit;
+}
+
+input,select,textarea,button
+{
+    font-family:inherit;
+    margin-top: 5px;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+}
+form{
+    max-width: 500px;
+    margin:auto;
+}
+label{
+margin-top: 10px;
+    display:block;
+}
+article{
+    background-color: bisque;
+    font-family: inherit;
+
+}
+button{
+    background-color: black;
+    color: rgb(236, 239, 241);
+    font-weight: bold;
+    padding: 7px;
+}
+button:hover{
+    background-color: rgb(79, 42, 165);
+    cursor: pointer;
+}
+header{ 
+    background-color: rgb(46, 120, 231);
+    text-align: center;
+}
+.container{
+    margin: 20px;
+    background-color: rgb(63, 106, 126);
+} 
+#order{
+    background-color: rgb(235, 151, 221);
+}
+section{
+    background-color: rgb(153, 115, 145);
+    list-style: none;
+}
+aside{
+    background-color: rgb(196, 215, 255);
+}
+footer{
+    background-color: rgb(139, 99, 99);
+
+}
